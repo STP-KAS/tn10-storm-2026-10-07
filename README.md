@@ -3,6 +3,10 @@
 > Good intentions, shaky hands. STP does not know what he is doing. We test, we write down what we think we saw, and that is the whole product. A number here is not the truth. A chart is not the truth. Any other sentence that sounds sure of itself is not the truth either. Do not count any of it as a claim.
 >
 > [Disclaimer](DISCLAIMER.md)
+>
+> **Part of [tn-master](https://github.com/STP-KAS/tn-master)**, the map of every TN10 storm. Renamed on 11 Oct 2026 from `tn10-build-desk-tps-3500`; old links redirect here.
+>
+> ← previous storm: [tn10-storm-2026-10-06](https://github.com/STP-KAS/tn10-storm-2026-10-06) | next storm: [tn10-storm-2026-10-08](https://github.com/STP-KAS/tn10-storm-2026-10-08) →
 
 Thank you, Kaspa Pulse (@gokugalax), for the guidance and the input over this stretch, from 4 Oct 2026 on. The 7 Oct 2026 wording stays: sign-and-send processes are senders; runner is the setup; bot is reserved for the operator.
 
@@ -10,13 +14,13 @@ Thank you, Kaspa Pulse (@gokugalax), for the guidance and the input over this st
 
 Kaspa Testnet-10 only. Every clock on this page is UTC.
 
-The other notes stay separate. The 9 or 13 Oct paste-in is [GROK-BUILD-PROMPT.md](https://github.com/STP-KAS/tn10-storm-throughput-questions/blob/main/plan/GROK-BUILD-PROMPT.md). The desk runs, oldest first, are [tn10-build-desk-tps](https://github.com/STP-KAS/tn10-build-desk-tps). Why a signed payment stops near 3,080 is [what-limits-tx-rate](https://github.com/STP-KAS/what-limits-tx-rate). The questions and the empty result sections are [tn10-storm-throughput-questions](https://github.com/STP-KAS/tn10-storm-throughput-questions).
+The other notes stay separate. The 9 or 13 Oct paste-in is [GROK-BUILD-PROMPT.md](https://github.com/STP-KAS/tn10-storm-2026-10-04-questions/blob/main/plan/GROK-BUILD-PROMPT.md). The desk runs, oldest first, are [tn10-storm-2026-10-06](https://github.com/STP-KAS/tn10-storm-2026-10-06). Why a signed payment stops near 3,080 is [what-limits-tx-rate](https://github.com/STP-KAS/what-limits-tx-rate). The questions and the empty result sections are [tn10-storm-2026-10-04-questions](https://github.com/STP-KAS/tn10-storm-2026-10-04-questions).
 
 ## What
 
 The bar on this page is an included rate well over 3,500 transactions a second on Testnet-10. Included means the sender saw the transaction in the virtual chain. A submit acknowledgement is a different number. This page is not the 9 Oct or 13 Oct storm, and it does not move that storm's fee.
 
-The long included hold in [tn10-build-desk-tps](https://github.com/STP-KAS/tn10-build-desk-tps) is 2,207 seen-accepted transactions a second for 6 hours 1 minute, from 2026-10-06T23:53:27 UTC to 2026-10-07T05:54:53 UTC, at fee 200/300. The published 6,321 is submit-OK for 20 seconds. Seen-accepted in that same window is about 1,900 a second.
+The long included hold in [tn10-storm-2026-10-06](https://github.com/STP-KAS/tn10-storm-2026-10-06) is 2,207 seen-accepted transactions a second for 6 hours 1 minute, from 2026-10-06T23:53:27 UTC to 2026-10-07T05:54:53 UTC, at fee 200/300. The published 6,321 is submit-OK for 20 seconds. Seen-accepted in that same window is about 1,900 a second.
 
 ## Why a signed payment stops near 3,080
 
@@ -38,7 +42,7 @@ It will not spend coins a live signer is already using. It will not start a seco
 
 ## Kaspa Pulse, 7 Oct 2026
 
-Kaspa Pulse ([@gokugalax](https://x.com/gokugalax)) asked, in messages from 19:23 to 19:54 UTC, that the 18:52–19:23 UTC window and the 2,750 figure be read from the log before anyone calls a ceiling. The note is [PULSE-WINDOW-7-OCT.md](https://github.com/STP-KAS/tn10-storm-throughput-questions/blob/main/plan/PULSE-WINDOW-7-OCT.md). The log does not cover 18:52–19:23 UTC. The 2,753 `included_s` sum at 15:20:32 UTC and mempool 9747 at 15:25:33 UTC are different minutes in `status.log`. Neither number is a ceiling. The 3,500 bar on this page is unchanged. A pending dry run for 8 Oct 2026, not the storm, is in [TESTDAY.md](https://github.com/STP-KAS/tn10-storm-throughput-questions/blob/main/plan/TESTDAY.md). A process that signs and sends is a sender. The runner is the whole setup.
+Kaspa Pulse ([@gokugalax](https://x.com/gokugalax)) asked, in messages from 19:23 to 19:54 UTC, that the 18:52–19:23 UTC window and the 2,750 figure be read from the log before anyone calls a ceiling. The note is [PULSE-WINDOW-7-OCT.md](https://github.com/STP-KAS/tn10-storm-2026-10-04-questions/blob/main/plan/PULSE-WINDOW-7-OCT.md). The log does not cover 18:52–19:23 UTC. The 2,753 `included_s` sum at 15:20:32 UTC and mempool 9747 at 15:25:33 UTC are different minutes in `status.log`. Neither number is a ceiling. The 3,500 bar on this page is unchanged. A pending dry run for 8 Oct 2026, not the storm, is in [TESTDAY.md](https://github.com/STP-KAS/tn10-storm-2026-10-04-questions/blob/main/plan/TESTDAY.md). A process that signs and sends is a sender. The runner is the whole setup.
 
 ## Where it stands
 
