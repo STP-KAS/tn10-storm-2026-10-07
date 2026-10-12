@@ -1,6 +1,6 @@
 > **Experimental. We are just trying this.**
 >
-> Good intentions, shaky hands. STP does not know what he is doing. We test, we write down what we think we saw, and that is the whole product. A number here is not the truth. A chart is not the truth. Any other sentence that sounds sure of itself is not the truth either. Do not count any of it as a claim.
+> We test, we write down what we think we saw, and that is the whole product. A number here is not the truth. A chart is not the truth. Any other sentence that sounds sure of itself is not the truth either. Do not count any of it as a claim.
 >
 > [Disclaimer](DISCLAIMER.md)
 >
@@ -180,7 +180,7 @@ Higher fees from 1,018 to 2,400, and sender counts from two to four, moved which
 
 **Result.** On the 1,365 lanes, inclusion stayed near 307 a second for about 53 seconds, and submit matched it. The node stayed synced, and its RPC intake was about 300 a second. The 540-lane minute included 46.2 a second and submitted 113.7. The median submit call was 43 ms. The median wait from submit to inclusion was 549 ms, and the slow tail was about 28 seconds. Orphans were 0. The local pool climbed by about 2,900. Included over submitted was 0.41, so that minute is not a held rate. The 32-in-flight try burst and then went quiet, and was stopped before a minute. 3,500 was not read. The senders are stopped.
 
-Intentions are good; thought process is questionable. STP remains delusional. Si vis pacem, para bellum.
+Si vis pacem, para bellum.
 
 Intern at https://sixpack.wtf/
 X: https://x.com/StppStp · GitHub: https://github.com/STP-KAS
